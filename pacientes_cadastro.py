@@ -71,7 +71,7 @@ def pede_telefone2():
 def pede_indicacao():
     indicacao = input("Foi indicado por alguém?\n Digite S / N  ").upper().strip()
     while indicacao not in ("S", "N"):
-        print("\nOpção inválida!!\n")
+        print("\nOpção inválida!\n")
         indicacao = input("Foi indicado por alguém?\n Digite S / N  ").upper().strip()
     if indicacao == "S":
         confirma_indicacao = input("Quem indicou: ").title().strip()
