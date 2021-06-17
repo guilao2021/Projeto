@@ -154,7 +154,7 @@ def deleta():
     print("Deseja excluir esse registro?")
     confirma = input('S / N: ').upper()
     while confirma not in('S', 'N'):
-        print("Opção inválida!!!")
+        print("Opção inválida!!")
         confirma =  input('S / N: ').upper()
     if confirma == 'S':
         deletar = f"DELETE FROM {tabela} WHERE {parametro} = {identificador}"
