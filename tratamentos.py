@@ -49,7 +49,7 @@ def pergunta_hipertenso():
 def pede_pa_max():
     pa_max = float(input("PA MÀX: "))
     if pa_max >= 17:
-        raise ValueError("Paciente não deve realizar o procedimento porque a pressão arterial está elevada!!")
+        raise ValueError("Paciente não deve realizar o procedimento porque a pressão arterial está elevada!")
     else:
         pa_str = str(pa_max)
         return pa_str
