@@ -19,7 +19,7 @@ class NotasFiscais:
             conn = mysql.connector.connect(host='localhost', database='consultorio', user='###',
                                            password='###')
         except Error as erro:
-            print("Erro de Conexão")
+            print("Erro de Conexão!")
 
     def gravar_mysql(self):
         try:
