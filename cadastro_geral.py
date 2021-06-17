@@ -142,7 +142,7 @@ class Telefone:
             if self.valida_telefone(telefone):
                 self.numero = telefone
             else:
-                raise ValueError("Número incorreto!!")
+                raise ValueError("Número incorreto!")
         else:
             raise ValueError("Quantidade de digitos incorreto!!")
 
