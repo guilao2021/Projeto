@@ -77,7 +77,7 @@ VALUES
 ('Aparelho ortodôntico fixo estético', 1187.00),
 ('Clareamento de dente desvitalizado', 377.00),
 ('Clareamento com moldeiras personalizadas (cada arcada)' , 539.00),
-('Polimento coronário (2 arcadas)' , 114.00),
+('Polimento coronário (2 arcadas)', 114.00),
 ('Limpeza dental preço (raspagem do tártaro)', 405.00);
 
 CREATE TABLE tratamentos
